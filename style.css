@@ -91,7 +91,7 @@ button a{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 .about-container{
     width: 1200px;
@@ -110,9 +110,53 @@ button a{
 .about-item .about-title{
     text-align: left;
 }
-.about-part{
+.about-para{
     color: #555555;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 25px;
+    padding: 10px 0 30px 0;
 }
 /* ================About part end================= */
+/* =============Digital Art part start============== */
+.digital-part{
+    background-color: #000;
+}
+.digital-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.digital-part .digital-item{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 3px 110px gray;
+    text-align: center;
+    color: #fff;
+    padding: 50px 30px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+.digital-part .digital-item img{
+    width: 100px;
+}
+.digital-heading{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+.digital-para{
+    color: #c0bfbf;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+.digital-btn{
+    font-size: 16px;
+    background-color: #1c1b1b;
+    padding: 16px 30px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* =============Digital Art part end============== */
