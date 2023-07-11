@@ -160,3 +160,45 @@ button a{
     margin-top: 20px;
 }
 /* =============Digital Art part end============== */
+/* ===============footer part start=============== */
+.footer-part{
+    background-color: #171717;
+}
+.footer-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    padding: 200px 0 70px 0;
+    color: #c0bfbf;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-item img{
+    width: 100px;
+}
+.footer-item p{
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    line-height: 25px;
+
+}
+.footer-item h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: #c0bfbf;
+    display: block;
+    margin: 10px 0;
+}
+.fc{
+    color: #c0bfbf;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* ===============footer part end=============== */
