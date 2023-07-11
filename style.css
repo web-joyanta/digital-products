@@ -1,0 +1,85 @@
+/* ==============common css part start================ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{ 
+    font-size: 16px;
+    background-color: #FF0000;
+    padding: 16px 30px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+/* ==============common css part end================ */
+/* =============menubar part start=============== */
+.navbar{
+    background-color: rgba(15, 15, 15, 0.9);
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 180px;
+}
+.menubar{}
+.menubar ul{
+    display: flex;
+}
+.menubar ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s;
+}
+.menubar ul li a:hover{
+    color: #FF0000;
+}
+/* =============menubar part end=============== */
+/* ==================banner part start=============== */
+.banner-part{
+    background-color: #171717;
+}
+.banner-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center;
+}
+.banner-part .banner-item{
+    
+}
+.banner-part .banner-item .heading-title{
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 170px;
+}
+.banner-part .banner-item .para-title{
+    color: #c0bfbf;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 0 40px 0;
+}
+.banner-part .banner-item img{
+    width: 500px;
+}
+/* ==================banner part end=============== */
